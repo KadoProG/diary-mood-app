@@ -11,4 +11,4 @@
 - メンタルの可視化・共有機能
 - マッチング機能？
 
-デプロイ？：https://www.pythonanywhere.com/user/KadoBloG/
+デプロイ？：https://kadoblog.pythonanywhere.com/
