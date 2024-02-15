@@ -10,3 +10,5 @@
 - より良い行動プラン・アクションを提示する機能
 - メンタルの可視化・共有機能
 - マッチング機能？
+
+デプロイ？：https://www.pythonanywhere.com/user/KadoBloG/
