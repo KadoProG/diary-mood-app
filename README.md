@@ -11,4 +11,8 @@
 - メンタルの可視化・共有機能
 - マッチング機能？
 
-デプロイ？：https://kadoblog.pythonanywhere.com/
+### URL
+
+- デプロイ？：https://kadoblog.pythonanywhere.com/
+- MeCab：`POST` https://kadoblog.pythonanywhere.com/api/mood-check
+  - body: {text:"形態素解析・感情分析したいテキスト"}

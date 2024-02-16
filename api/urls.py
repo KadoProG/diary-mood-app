@@ -16,8 +16,14 @@ Including another URLconf
 """
 
 from django.urls import path
-from .views import ModelList
+from .views import ModelList, MoodcheckModelList
 
 urlpatterns = [
-    path("", ModelList.as_view(), name="model-list")
+    path("", ModelList.as_view(), name="model-list"),
+    path("mood-check/", MoodcheckModelList.as_view(), name="mood-check-model-list"),
+    path(
+        "mood-check",
+        MoodcheckModelList.as_view(),
+        name="mood-check-model-list-without-slash",
+    ),
 ]
